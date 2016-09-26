@@ -7,6 +7,9 @@ var OGtext = ""
 $( document ).ready(function() {
     OGtext = $('#wd').text();
     OGLength = OGtext.length;
+    $('#wd').text("");
+    $("#wd").css({"visibility": "visible"});
+
     generateWordLength();
 });
 
@@ -41,7 +44,6 @@ function insertOGtext() {
     else{
            var w = $('#wd').text();
            w =  w.replaceAt(j, OGtext[j]);
-           randomChars(k)
            $('#wd').text(w);
     }
     j+=1;
@@ -50,6 +52,8 @@ function insertOGtext() {
     }
   
 }
+
+
 
    
 String.prototype.replaceAt=function(index, character) {
