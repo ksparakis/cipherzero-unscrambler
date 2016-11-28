@@ -1,4 +1,4 @@
-# watchdogs-word-unscrambler
+# cipherzero-unscrambler
 From the watchdogs websites, replicating the word unscrambler in javascript.
 
 Live Demo on jsfiddle:
