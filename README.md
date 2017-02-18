@@ -3,7 +3,7 @@ From the watchdogs websites, replicating the word unscrambler in javascript.
 
 Live Demo on jsfiddle:
 </br>
-https://jsfiddle.net/ksparakis/zbc9ehko/2/embed/result/
+https://jsfiddle.net/ksparakis/zbc9ehko/2/result/
 
 
 ##Introduction
